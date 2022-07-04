@@ -1,0 +1,134 @@
+body{
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section header{
+    position: absolute;
+    display: flex;
+    top: 0;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 20px;
+
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 16px;
+}
+section header ul li button{
+    background-color: blueviolet;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    color: ghostwhite;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 300px;
+}
+section .main{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    padding-right: 60px;
+    margin-bottom: 50px;
+    
+
+}
+section .main .searchbox .search{
+    width: 100%;
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 16px;
+    outline: firebrick;
+    
+}
+section .main .searchbox .icon{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 0;
+    pointer-events: none;
+    padding-left: 2px;
+    padding-right: 0;
+
+}
+section .main .button{
+    margin-top: 20px;
+}
+section .main .button button{
+    margin: 0 5px;
+    padding: 10px 40px;
+    color: #555;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 1px solid;
+}
+section .main .lang{
+    margin-top: 20px;
+}
+section .footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #f2f2f2;
+}
+section .footer .row{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(rgb(32, 30, 30), green, blue, alpha)
+}
+section .footer .row ul{
+    display: flex;
+    list-style: none;
+
+}
+section .footer .row ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+    margin-right: 20px;
+}
